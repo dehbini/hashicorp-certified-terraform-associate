@@ -138,6 +138,11 @@ echo $TF_VAR_ec2_instance_count, $TF_VAR_ec2_instance_type
 - Create a file named `terraform.tfvars` and define variables
 - If the file name is `terraform.tfvars`, terraform will auto-load the variables present in this file by overriding the `default` values in `variables.tf`
 ```
+# terraform.tfvars
+variable_name1 = value1
+variable_name2 = value2
+
+
 # Initialize Terraform
 terraform init
 
